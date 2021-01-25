@@ -1,4 +1,7 @@
-  
+#define FETCH_CONST(var) (call var)
+#define EXTDB "extDB3" callExtension
+
+
   _database = "tadatabse"
   _protocol = "SQL_CUSTOM"
   _protocol_option = "inalife.ini" //Ici tu poura mettre ton ini si t'en fais un
